@@ -85,3 +85,14 @@ Compensation from the persistence layer.
 
 ## Delivery
 Please upload your results to a publicly accessible Git repo. Free ones are provided by Github and Bitbucket.
+
+## Usage
+### Task 1
+Make a ```Get``` request to ```localhost:8080/api/employee/<employeeId>/getReports```, filling in the ```employeeId```.
+
+### Task 2
+To set or overwrite an employee's comensation, make a ```PUT``` request to ```localhost:8080/api/compensation/<employeeId>/<salary>```.
+
+To check an employee's compensation, just make a ```GET``` request to ```localhost:8080/api/compensation/<employeeId>```.
+
+I wasn't entirely sure exactly how we want things back in so I took some liberties.  I am happy to change the returned formats if the way things come back from the API is not exactly as desired :)
